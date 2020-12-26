@@ -37,8 +37,8 @@ def send_email():
     body = 'Check Amazon link price fell down' \
            'link: https://www.amazon.in/dp/B08QT49PXC?pf_rd_r=8CD2SH66WV7D38FGYKZ4&pf_rd_p=f93f3f81-9af5-4258-81b7-942444f637fe'
     thanks = 'Thanks & Regards' \
-             'Ajeet Pandey' \
-             '+91 9325818625'
+             'Ajeet Pandey'
+             
 
     msg = f"Subject: {subject}\n\n{body} \n\n\n {thanks}"
 
